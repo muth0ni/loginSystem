@@ -29,6 +29,9 @@ public class LoginSystem {
        JButton loginbutton = new JButton();//creating a button
        loginbutton.setText("Log in");//gives the button a name
        loginbutton.setSize(100, 100); //gives the size of the button
+       JButton logoutbutton = new JButton();//creating a button
+       logoutbutton.setText("Log out");//gives the button a name
+       logoutbutton.setSize(100, 100); //gives the size of the button
        //displaying text using labels on the jframe
        JLabel namelabel=new JLabel("Username:");
        JLabel usernamelabel=new JLabel("Password:");
